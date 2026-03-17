@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "keybindings": 
     [
         {
@@ -69,10 +69,12 @@
         "list": 
         [
             {
+                "bellStyle": "none",
                 "colorScheme": "One Half Dark",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "elevate": true,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
+                "historySize": 20000,
                 "name": "Windows PowerShell"
             },
             {

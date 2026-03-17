@@ -9,3 +9,4 @@ function lla { lsd -la $args }
 function lt { lsd --tree $args }
 
 oh-my-posh init pwsh | Invoke-Expression
+cls
