@@ -1,4 +1,5 @@
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadlineOption -BellStyle None
 
 Remove-Item Alias:ls -Force -ErrorAction SilentlyContinue
 Set-Alias ls lsd
